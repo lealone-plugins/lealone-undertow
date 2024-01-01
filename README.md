@@ -26,7 +26,7 @@
 
 ```sql
 create plugin undertow
-  implement by 'org.lealone.plugins.undertow.UndertowServerEngine' 
+  implement by 'com.lealone.plugins.undertow.UndertowServerEngine' 
   class path 'E:\lealone\lealone-plugins\undertow\target\lealone-undertow-plugin-6.0.0.jar'
   parameters (port=8080,web_root='E:\lealone\lealone-plugins\undertow\src\test\resources\web');
  

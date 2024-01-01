@@ -3,9 +3,9 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.undertow.test;
+package com.lealone.plugins.undertow.test;
 
-import org.lealone.main.Lealone;
+import com.lealone.main.Lealone;
 
 import io.undertow.Undertow;
 import io.undertow.server.HttpHandler;
