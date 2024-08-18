@@ -13,9 +13,9 @@
 
 运行 `mvn clean package -Dmaven.test.skip=true`
 
-生成 jar 包 `target\lealone-undertow-plugin-6.0.0.jar`
+生成 jar 包 `target\lealone-undertow-plugin-6.0.1.jar`
 
-假设 jar 包的绝对路径是 `E:\lealone\lealone-plugins\undertow\target\lealone-undertow-plugin-6.0.0.jar`
+假设 jar 包的绝对路径是 `E:\lealone\lealone-plugins\undertow\target\lealone-undertow-plugin-6.0.1.jar`
 
 
 ## 运行插件
@@ -27,7 +27,7 @@
 ```sql
 create plugin undertow
   implement by 'com.lealone.plugins.undertow.UndertowServerEngine' 
-  class path 'E:\lealone\lealone-plugins\undertow\target\lealone-undertow-plugin-6.0.0.jar'
+  class path 'E:\lealone\lealone-plugins\undertow\target\lealone-undertow-plugin-6.0.1.jar'
   parameters (port=8080,web_root='E:\lealone\lealone-plugins\undertow\src\test\resources\web');
  
 start plugin undertow;
